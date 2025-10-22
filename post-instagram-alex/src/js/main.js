@@ -1,0 +1,1 @@
+// Este archivo contiene el código JavaScript principal de la aplicación. Aquí se pueden agregar funciones y lógica para interactuar con los elementos de la página.

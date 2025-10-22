@@ -1,0 +1,65 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #7c7171;
+  margin: 0;
+  padding: 0;
+}
+
+
+.container {
+  width: 100;
+  margin: 0 auto;
+  border: 3px solid red;   /* Caja roja exterior */
+  background: #f0f0f0;
+}
+
+
+header {
+  background: white;
+  text-align: center;
+  padding: 20px;
+  border: 3px solid red;
+}
+
+h1 {
+  margin: 0;
+  border: 3px solid green; /* Caja verde alrededor del texto */
+}
+
+
+.post {
+  background: rgb(224, 83, 83);
+  margin: 20px;
+  border: 3px solid red; /* Caja roja de cada post */
+}
+
+/* Header del post */
+.post-header {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.post-header h2 {
+  margin: 0;
+  border: 2px solid red;
+}
+
+.post-header .date {
+  border: 2px solid red;
+  padding: 2px 5px;
+}
+
+
+.post-image img {
+  width: 100%;
+  display: block;
+  border: 2px solid blue; /* Caja azul imagen */
+}
+
+
+.post-footer {
+  padding: 10px;
+  border: 2px solid blue; /* Caja azul comentario */
+}
